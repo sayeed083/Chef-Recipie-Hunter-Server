@@ -7,16 +7,16 @@ const chefRecipe = require('./Data/chefRecipes.json')
 
 app.use(cors())
 
-app.get ('/categoryNews/:id', (req, res) =>{
+app.get ('/singleChefRecipies/:id', (req, res) =>{
 
     const id = req.params.id;
     if (id ==0) {
         res.send(chefRecipe)
       }
       else {
-        const categoryNews = chefRecipe.filter(e => e.id == id)
+        const singleChefRecipies = chefRecipe.filter(e => e.id == id)
         // console.log(categoryNews.length);
-        res.send(categoryNews)
+        res.send(singleChefRecipies)
       }
 
 } )

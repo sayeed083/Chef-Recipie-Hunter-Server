@@ -30,6 +30,7 @@
             "rating": 5
         },
         {
+            "id": 2,
             "recipeName": "Beef Bourguignon",
             "ingredients": [
                 "beef chuck",
@@ -50,6 +51,7 @@
             "cookingMethod": "Brown the beef and bacon in a pot, then sauté the onion and garlic. Add the mushrooms, wine, broth, tomato paste, thyme, bay leaves, carrots, potatoes, salt, and pepper, and simmer until the beef is tender.",
             "rating": 5
         },{
+            "id": 3,
             "recipeName": "Beef Bourguignon",
             "ingredients": [
                 "beef chuck",
@@ -82,6 +84,26 @@
         "bio": "Marie-Claire is a self-taught chef who has a talent for creating simple yet delicious dishes. She loves to experiment with different flavors and ingredients to create dishes that are both comforting and exciting.",
         "recipe": [
             {
+                "id": 1,
+                "recipeName": "Ratatouille",
+                "ingredients": [
+                    "eggplant",
+                    "zucchini",
+                    "yellow squash",
+                    "bell pepper",
+                    "onion",
+                    "garlic",
+                    "canned tomatoes",
+                    "olive oil",
+                    "thyme",
+                    "bay leaves",
+                    "salt",
+                    "pepper"
+                ],
+                "cookingMethod": "Sauté the onion and garlic in olive oil, then add the diced vegetables, tomatoes, thyme, bay leaves, salt, and pepper. Cover and simmer until the vegetables are tender.",
+                "rating": 4.5
+            },
+            {
                 "id": 2,
                 "recipeName": "Ratatouille",
                 "ingredients": [
@@ -102,25 +124,7 @@
                 "rating": 4.5
             },
             {
-                "recipeName": "Ratatouille",
-                "ingredients": [
-                    "eggplant",
-                    "zucchini",
-                    "yellow squash",
-                    "bell pepper",
-                    "onion",
-                    "garlic",
-                    "canned tomatoes",
-                    "olive oil",
-                    "thyme",
-                    "bay leaves",
-                    "salt",
-                    "pepper"
-                ],
-                "cookingMethod": "Sauté the onion and garlic in olive oil, then add the diced vegetables, tomatoes, thyme, bay leaves, salt, and pepper. Cover and simmer until the vegetables are tender.",
-                "rating": 4.5
-            },
-            {
+                "id": 3,
                 "recipeName": "Ratatouille",
                 "ingredients": [
                     "eggplant",
@@ -151,45 +155,47 @@
         "bio": "Pierre-Luc is a young chef who is passionate about using local, sustainable ingredients in his cooking. He believes that food should be both delicious and good for the planet.",
         "recipe": [
             {
+                "id": 1,
+                "recipeName": "Coq au Vin",
+                "ingredients": [
+                    "chicken thighs",
+                    "bacon",
+                    "mushrooms",
+                    "onion",
+                    "garlic",
+                    "red wine",
+                    "chicken broth",
+                    "tomato paste",
+                    "thyme",
+                    "bay leaves",
+                    "salt",
+                    "pepper"
+                ],
+                "cookingMethod": "Brown the chicken and bacon in a pot, then sauté the onion and garlic. Add the mushrooms, wine, broth, tomato paste, thyme, bay leaves, salt, and pepper, and simmer until the chicken is tender.",
+                "rating": 4.5
+            },
+            {
+                "id": 2,
+                "recipeName": "Coq au Vin",
+                "ingredients": [
+                    "chicken thighs",
+                    "bacon",
+                    "mushrooms",
+                    "onion",
+                    "garlic",
+                    "red wine",
+                    "chicken broth",
+                    "tomato paste",
+                    "thyme",
+                    "bay leaves",
+                    "salt",
+                    "pepper"
+                ],
+                "cookingMethod": "Brown the chicken and bacon in a pot, then sauté the onion and garlic. Add the mushrooms, wine, broth, tomato paste, thyme, bay leaves, salt, and pepper, and simmer until the chicken is tender.",
+                "rating": 4.5
+            },
+            {
                 "id": 3,
-                "recipeName": "Coq au Vin",
-                "ingredients": [
-                    "chicken thighs",
-                    "bacon",
-                    "mushrooms",
-                    "onion",
-                    "garlic",
-                    "red wine",
-                    "chicken broth",
-                    "tomato paste",
-                    "thyme",
-                    "bay leaves",
-                    "salt",
-                    "pepper"
-                ],
-                "cookingMethod": "Brown the chicken and bacon in a pot, then sauté the onion and garlic. Add the mushrooms, wine, broth, tomato paste, thyme, bay leaves, salt, and pepper, and simmer until the chicken is tender.",
-                "rating": 4.5
-            },
-            {
-                "recipeName": "Coq au Vin",
-                "ingredients": [
-                    "chicken thighs",
-                    "bacon",
-                    "mushrooms",
-                    "onion",
-                    "garlic",
-                    "red wine",
-                    "chicken broth",
-                    "tomato paste",
-                    "thyme",
-                    "bay leaves",
-                    "salt",
-                    "pepper"
-                ],
-                "cookingMethod": "Brown the chicken and bacon in a pot, then sauté the onion and garlic. Add the mushrooms, wine, broth, tomato paste, thyme, bay leaves, salt, and pepper, and simmer until the chicken is tender.",
-                "rating": 4.5
-            },
-            {
                 "recipeName": "Coq au Vin",
                 "ingredients": [
                     "chicken thighs",
@@ -220,7 +226,7 @@
         "bio": "Sophie is a pastry chef who has a talent for creating beautiful and delicious desserts. She loves to experiment with different flavors and textures to create desserts that are both elegant and satisfying.",
         "recipe": [
             {
-                "id": 4,
+                "id": 1,
                 "recipeName": "Quiche Lorraine",
                 "ingredients": [
                     "pie crust",
@@ -236,6 +242,7 @@
                 "rating": 4
             },
             {
+                "id": 2,
                 "recipeName": "Quiche Lorraine",
                 "ingredients": [
                     "pie crust",
@@ -251,6 +258,7 @@
                 "rating": 4
             },
             {
+                "id": 3,
                 "recipeName": "Quiche Lorraine",
                 "ingredients": [
                     "pie crust",
@@ -277,7 +285,8 @@
         "bio": "Julia Child was a beloved American chef and television personality who brought French cuisine to the masses. She is best known for her cookbook 'Mastering the Art of French Cooking,' which she co-authored with two French chefs. Child's warm personality and sense of humor made her a household name, and her legacy continues to inspire chefs around the world.",
         "recipe": [
             {
-                "id": 5,
+
+                "id": 1,
                 "recipeName": "Tarte Tatin",
                 "ingredients": [
                     "puff pastry",
@@ -290,6 +299,7 @@
                 "rating": 4
             },
             {
+                "id": 2,
                 "recipeName": "Tarte Tatin",
                 "ingredients": [
                     "puff pastry",
@@ -302,6 +312,7 @@
                 "rating": 4
             },
             {
+                "id": 3,
                 "recipeName": "Tarte Tatin",
                 "ingredients": [
                     "puff pastry",
@@ -325,7 +336,7 @@
         "bio": "Alain Ducasse is a world-renowned French chef and restaurateur who has earned an astounding 21 Michelin stars throughout his career. He is known for his innovative approach to French cuisine, and his restaurants around the world are consistently ranked among the best in the world.",
         "recipe": [
             {
-                "id": 6,
+                "id": 1,
                 "recipeName": "Bouillabaisse",
                 "ingredients": [
                     "fish (such as cod, haddock, or red snapper)",
@@ -346,6 +357,7 @@
                 "rating": 4
             },
             {
+                "id": 2,
                 "recipeName": "Bouillabaisse",
                 "ingredients": [
                     "fish (such as cod, haddock, or red snapper)",
@@ -366,6 +378,7 @@
                 "rating": 4
             },
             {
+                "id": 3,
                 "recipeName": "Bouillabaisse",
                 "ingredients": [
                     "fish (such as cod, haddock, or red snapper)",
