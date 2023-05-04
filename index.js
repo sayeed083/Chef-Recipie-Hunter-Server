@@ -15,7 +15,6 @@ app.get ('/singleChefRecipies/:id', (req, res) =>{
       }
       else {
         const singleChefRecipies = chefRecipe.filter(e => e.id == id)
-        // console.log(categoryNews.length);
         res.send(singleChefRecipies)
       }
 
